@@ -1,0 +1,63 @@
+PARTE 1: Consultas de Agregação e Agrupamento
+
+1- Quantidade de pacientes por plano (COUNT + GROUP BY)
+
+Descrição: Conta o volume total de pacientes cadastrados agrupados por cada plano de saúde ou modalidade particular.
+Resultados Esperados: Uma lista ranqueada mostrando o nome do convênio e o número exato de pacientes associados a ele.
+Insight Prático: Revela o nível de dependência financeira da clínica em relação a operadoras específicas. Se um único convênio concentrar a maioria dos pacientes, a diretoria saberá que descredenciamentos ou atrasos de repasse dessa operadora representam alto risco para o fluxo de caixa, justificando campanhas para atrair pacientes particulares.
+
+2- Total de valores por status de pagamento (SUM + GROUP BY)
+
+Descrição: Soma o valor financeiro de todas as consultas, dividindo o montante pelo status atual (Pago, Pendente, Cancelado).
+Resultados Esperados: O valor monetário exato represado em cada categoria, evidenciando o que já entrou em caixa e o que está pendente.
+Insight Prático: Identifica rapidamente gargalos de recebimento. Um volume muito alto em "Pendente" indica falhas no processo de cobrança ativa da recepção, exigindo a implementação de réguas de cobrança automatizadas (ex: via WhatsApp) antes do vencimento.
+
+3- Média do valor das consultas por especialidade (AVG + GROUP BY)
+
+Descrição: Calcula o ticket médio cobrado por atendimento dentro de cada especialidade médica cadastrada.
+Resultados Esperados: Uma tabela listando as especialidades (ex: Neurologia, Pediatria) e o valor médio gerado por consulta.
+Insight Prático: Aponta diretamente quais áreas médicas são mais rentáveis por hora clínica ocupada. A clínica pode usar esse dado para priorizar a alocação de salas e expandir a grade de horários para as especialidades com maior ticket médio e alta demanda.
+
+4- Maior e menor valor de consulta (MAX + MIN)
+
+Descrição: Busca o valor absoluto mais alto (teto) e o mais baixo (piso) já registrados no histórico de agendamentos.
+Resultados Esperados: Apenas duas colunas mostrando o teto máximo cobrado e o menor valor praticado (geralmente consultas de retorno ou convênios com grande desconto).
+Insight Prático: Atua como uma métrica de compliance e auditoria rápida. Permite que a gestão financeira verifique instantaneamente se há algum lançamento de valor incorreto (como uma consulta a R$ 0,00 ou um valor muito acima da tabela vigente).
+
+PARTE 2: Consultas de Junção (JOINs)
+5- Visão Central: Consultas com paciente, médico e especialidade (INNER JOIN)
+
+Descrição: Cruza quatro tabelas (Consulta, Paciente, Médico_Especialidade, Médico, Especialidade) para unificar todas as informações de um atendimento.
+Resultados Esperados: A grade completa da agenda contendo data, hora, nome do paciente, nome do médico, especialidade, status e valor.
+Insight Prático: Elimina a necessidade de acessar múltiplos sistemas ou planilhas cruzadas na recepção. Agiliza o check-in do paciente, reduz filas na sala de espera e diminui drasticamente os erros de direcionamento para os consultórios.
+
+6- Histórico financeiro individual dos pacientes (INNER JOIN)
+
+Descrição: Relaciona a tabela de pagamentos diretamente com os pacientes e suas respectivas datas de consulta.
+Resultados Esperados: O extrato nominal detalhado de quem pagou, quando, valor da coparticipação e o método utilizado (PIX, Dinheiro, Cartão).
+Insight Prático: Fundamental para rastrear o comportamento financeiro. Permite identificar pacientes recorrentemente inadimplentes para aplicar bloqueios preventivos de novos agendamentos até a quitação de débitos anteriores.
+
+7- Mapeamento de Médicos e suas especialidades (INNER JOIN)
+
+Descrição: Lista o corpo clínico ativo ligando os profissionais às áreas em que estão habilitados a atender na clínica.
+Resultados Esperados: O catálogo completo de prestadores de serviço, mostrando nome, CRM, especialidade, preço da consulta daquele médico e status.
+Insight Prático: Evidencia a cobertura da clínica. Facilita o agendamento por parte de novos recepcionistas e alerta a gestão caso a clínica esteja operando com apenas um profissional em uma especialidade crítica (risco de paralisação em caso de férias ou doença do médico).
+
+8- Auditoria Clínica: Pacientes e seus prontuários (LEFT JOIN)
+
+Descrição: Retorna todos os pacientes com consultas marcadas e cruza com a tabela de prontuários, mantendo na lista pacientes cujo prontuário ainda é nulo.
+Resultados Esperados: Uma lista evidenciando linhas com consultas agendadas/realizadas, mas onde o status e diagnóstico no prontuário aparecem vazios.
+Insight Prático: Ferramenta crucial de auditoria médica. Revela imediatamente falhas de conformidade caso um médico finalize um atendimento e esqueça de preencher o prontuário eletrônico no sistema.
+
+PARTE 3: Consultas Extras para Machine Learning Data Prep
+9- Taxa percentual de No-Show (CASE WHEN + SUM)
+
+Descrição: Calcula a porcentagem exata de pacientes que agendam, mas faltam à consulta sem aviso prévio.
+Resultados Esperados: O volume total de consultas, o total absoluto de faltas e a taxa percentual de ausência.
+Insight Prático: Este é o principal KPI operacional da clínica. Identificar a taxa de No-Show valida a necessidade do desenvolvimento do modelo preditivo de Machine Learning para a próxima fase do projeto, focando em antecipar faltas e viabilizar encaixes.
+
+10- Faturamento por Especialidade vs Recebido (LEFT JOIN + CASE WHEN)
+
+Descrição: Compara a quantidade de consultas realizadas por especialidade com o montante efetivamente já pago e recebido no caixa.
+Resultados Esperados: Uma visão financeira que desconsidera os calotes, mostrando apenas a receita líquida consolidada por área.
+Insight Prático: Desmascara métricas de vaidade. Uma especialidade pode ter a agenda lotada, mas se sofrer com alta inadimplência ou No-Shows altos (como ocorre frequentemente em Pediatria), sua rentabilidade real é baixa. Orienta decisões de reestruturação de quadro médico.

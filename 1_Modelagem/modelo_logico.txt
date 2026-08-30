@@ -1,0 +1,117 @@
+MODELO LÓGICO
+
+PLANO
+- id_plano INT PK
+- nome_plano VARCHAR(50)
+- tipo_plano VARCHAR(30)
+- descricao VARCHAR(150)
+- percentual_cobertura DECIMAL(5,2)
+- valor_consulta_padrao DECIMAL(10,2)
+- telefone_contato VARCHAR(20)
+- email_contato VARCHAR(100) UNIQUE
+- ativo TINYINT(1)
+- data_cadastro DATE
+
+
+PACIENTE
+- id_paciente INT PK
+- nome VARCHAR(100)
+- cpf VARCHAR(14) UNIQUE
+- data_nascimento DATE
+- genero VARCHAR(20)
+- telefone VARCHAR(20)
+- email VARCHAR(100) UNIQUE
+- endereco VARCHAR(200)
+- id_plano INT FK → PLANO(id_plano)
+
+
+MEDICO
+- id_medico INT PK
+- nome VARCHAR(100)
+- crm VARCHAR(20) UNIQUE
+- cpf VARCHAR(14) UNIQUE
+- telefone VARCHAR(20)
+- email VARCHAR(100) UNIQUE
+- endereco VARCHAR(200)
+- data_contratacao DATE
+- status VARCHAR(20)
+
+
+ESPECIALIDADE
+- id_especialidade INT PK
+- nome VARCHAR(100) UNIQUE
+- descricao VARCHAR(200)
+- valor_consulta DECIMAL(10,2)
+- duracao_consulta INT
+- status VARCHAR(20)
+
+
+MEDICO_ESPECIALIDADE
+- id_medico_especialidade INT PK
+- id_medico INT FK → MEDICO(id_medico)
+- id_especialidade INT FK → ESPECIALIDADE(id_especialidade)
+- data_inicio DATE
+- data_fim DATE
+- principal TINYINT(1)
+- UNIQUE(id_medico, id_especialidade)
+
+
+HORARIO
+- id_horario INT PK
+- id_medico INT FK → MEDICO(id_medico)
+- dia_semana VARCHAR(20)
+- hora_inicio TIME
+- hora_fim TIME
+- intervalo_minutos INT
+- status VARCHAR(20)
+
+
+CONSULTA
+- id_consulta INT PK
+- id_paciente INT FK → PACIENTE(id_paciente)
+- id_medico_especialidade INT FK → MEDICO_ESPECIALIDADE(id_medico_especialidade)
+- data_agendamento DATETIME
+- data_consulta DATETIME
+- status VARCHAR(20)
+- valor_consulta DECIMAL(10,2)
+- observacoes VARCHAR(300)
+
+
+PRONTUARIO
+- id_prontuario INT PK
+- id_consulta INT FK → CONSULTA(id_consulta) UNIQUE
+- data_registro DATE
+- queixa_principal VARCHAR(300)
+- diagnostico VARCHAR(300)
+- observacoes VARCHAR(500)
+
+
+PRESCRICAO
+- id_prescricao INT PK
+- id_prontuario INT FK → PRONTUARIO(id_prontuario)
+- medicamento VARCHAR(150)
+- dosagem VARCHAR(100)
+- frequencia VARCHAR(100)
+- duracao VARCHAR(100)
+- observacoes VARCHAR(300)
+
+
+PAGAMENTO
+- id_pagamento INT PK
+- id_consulta INT FK → CONSULTA(id_consulta) UNIQUE
+- valor DECIMAL(10,2)
+- data_pagamento DATE
+- metodo_pagamento VARCHAR(30)
+- status VARCHAR(20)
+- observacoes VARCHAR(200)
+
+RELACIONAMENTOS
+PLANO 1:N PACIENTE
+MEDICO 1:N MEDICO_ESPECIALIDADE
+ESPECIALIDADE 1:N MEDICO_ESPECIALIDADE
+MEDICO 1:N HORARIO
+PACIENTE 1:N CONSULTA
+MEDICO_ESPECIALIDADE 1:N CONSULTA
+CONSULTA 1:0..1 PRONTUARIO
+PRONTUARIO 1:N PRESCRICAO
+CONSULTA 1:0..1 PAGAMENTO
