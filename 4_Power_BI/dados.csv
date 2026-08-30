@@ -1,0 +1,201 @@
+id_consulta,genero,data_nascimento,plano,especialidade,data_agendamento,data_consulta,status,dias_antecedencia,idade,target_faltou
+1,Feminino,2018-06-01,Particular Premium,Cardiologia,2026-05-03,2026-06-24,Realizada,52,8,0
+2,Masculino,2013-05-31,Convenio Y,Pediatria,2026-04-09,2026-06-04,Faltou,56,13,1
+3,Masculino,1998-06-01,Particular,Clinica Geral,2026-06-10,2026-06-25,Realizada,15,28,0
+4,Masculino,1984-05-31,Particular Premium,Dermatologia,2026-05-26,2026-06-24,Realizada,29,42,0
+5,Feminino,1981-05-31,Particular Premium,Ortopedia,2026-06-20,2026-06-28,Realizada,8,45,0
+6,Feminino,1958-06-01,Convenio Y,Ortopedia,2026-06-25,2026-06-30,Realizada,5,68,0
+7,Feminino,1972-05-31,Particular,Dermatologia,2026-05-11,2026-06-09,Realizada,29,54,0
+8,Masculino,1995-06-01,Convenio Y,Psiquiatria,2026-05-07,2026-06-23,Realizada,47,31,0
+9,Masculino,2025-05-31,Particular,Pediatria,2026-06-22,2026-06-26,Faltou,4,1,1
+10,Masculino,1979-06-01,Convenio X Empresarial,Ortopedia,2026-06-04,2026-06-16,Realizada,12,47,0
+11,Feminino,2006-06-01,Convenio X,Clinica Geral,2026-04-22,2026-06-06,Faltou,45,20,1
+12,Masculino,2022-06-01,Convenio X,Pediatria,2026-06-02,2026-06-04,Realizada,2,4,0
+13,Masculino,1969-05-31,Convenio X,Clinica Geral,2026-05-24,2026-06-20,Realizada,27,57,0
+14,Feminino,1994-06-01,Convenio Y,Cardiologia,2026-05-02,2026-06-02,Faltou,31,32,1
+15,Feminino,2012-05-31,Convenio X Empresarial,Pediatria,2026-05-09,2026-06-29,Realizada,51,14,0
+16,Feminino,1966-06-01,Particular,Ortopedia,2026-04-26,2026-06-16,Realizada,51,60,0
+17,Feminino,2019-06-01,Particular Premium,Pediatria,2026-05-04,2026-06-09,Realizada,36,7,0
+18,Feminino,2015-06-01,Particular,Pediatria,2026-04-28,2026-06-03,Realizada,36,11,0
+19,Feminino,2022-06-01,Particular Premium,Pediatria,2026-05-09,2026-06-04,Realizada,26,4,0
+20,Feminino,1995-06-01,Particular,Psiquiatria,2026-05-13,2026-06-25,Realizada,43,31,0
+21,Masculino,2013-05-31,Convenio X Empresarial,Pediatria,2026-05-19,2026-06-15,Realizada,27,13,0
+22,Feminino,1986-06-01,Particular Premium,Clinica Geral,2026-06-20,2026-06-25,Realizada,5,40,0
+23,Feminino,1993-05-31,Convenio Y,Cardiologia,2026-05-26,2026-06-15,Realizada,20,33,0
+24,Feminino,1977-05-31,Particular,Dermatologia,2026-06-01,2026-06-12,Realizada,11,49,0
+25,Feminino,2020-05-31,Particular,Pediatria,2026-06-07,2026-06-17,Realizada,10,6,0
+26,Masculino,1989-05-31,Particular Premium,Ortopedia,2026-04-26,2026-06-05,Realizada,40,37,0
+27,Feminino,2017-05-31,Convenio Y,Pediatria,2026-05-14,2026-06-21,Faltou,38,9,1
+28,Feminino,1979-06-01,Convenio Y,Ortopedia,2026-05-31,2026-06-06,Realizada,6,47,0
+29,Masculino,1976-05-31,Convenio X Empresarial,Clinica Geral,2026-06-15,2026-06-23,Realizada,8,50,0
+30,Feminino,2003-06-01,Convenio Y,Ortopedia,2026-05-30,2026-06-22,Faltou,23,23,1
+31,Masculino,2010-06-01,Convenio Y,Dermatologia,2026-04-29,2026-06-15,Realizada,47,16,0
+32,Feminino,1967-06-01,Convenio Y,Cardiologia,2026-05-29,2026-06-24,Realizada,26,59,0
+33,Feminino,1982-06-01,Convenio X,Ortopedia,2026-05-02,2026-06-17,Faltou,46,44,1
+34,Masculino,1998-06-01,Convenio X Empresarial,Ortopedia,2026-05-07,2026-06-19,Realizada,43,28,0
+35,Masculino,1963-06-01,Particular,Cardiologia,2026-05-27,2026-06-08,Realizada,12,63,0
+36,Masculino,1985-05-31,Particular Premium,Dermatologia,2026-05-16,2026-06-11,Realizada,26,41,0
+37,Feminino,2025-05-31,Particular,Pediatria,2026-05-26,2026-06-08,Realizada,13,1,0
+38,Feminino,1985-05-31,Convenio X Empresarial,Ortopedia,2026-04-23,2026-06-02,Realizada,40,41,0
+39,Masculino,1956-05-31,Particular Premium,Cardiologia,2026-06-06,2026-06-24,Realizada,18,70,0
+40,Feminino,1960-05-31,Convenio X Empresarial,Clinica Geral,2026-05-28,2026-06-22,Realizada,25,66,0
+41,Feminino,1990-06-01,Convenio Y,Cardiologia,2026-05-18,2026-06-20,Realizada,33,36,0
+42,Feminino,1972-05-31,Particular Premium,Clinica Geral,2026-05-01,2026-06-17,Realizada,47,54,0
+43,Feminino,1977-05-31,Convenio Y,Dermatologia,2026-05-21,2026-06-30,Realizada,40,49,0
+44,Masculino,2013-05-31,Particular,Pediatria,2026-05-08,2026-06-20,Faltou,43,13,1
+45,Feminino,2001-05-31,Particular,Cardiologia,2026-05-24,2026-06-05,Realizada,12,25,0
+46,Masculino,1976-05-31,Particular Premium,Psiquiatria,2026-05-17,2026-06-30,Faltou,44,50,1
+47,Feminino,1971-06-01,Particular Premium,Ortopedia,2026-05-24,2026-06-29,Faltou,36,55,1
+48,Feminino,2013-05-31,Convenio X Empresarial,Dermatologia,2026-05-02,2026-06-19,Faltou,48,13,1
+49,Feminino,2004-05-31,Convenio X Empresarial,Cardiologia,2026-05-30,2026-06-03,Realizada,4,22,0
+50,Feminino,2017-05-31,Convenio Y,Ortopedia,2026-05-28,2026-06-02,Realizada,5,9,0
+51,Masculino,1991-06-01,Particular Premium,Cardiologia,2026-04-21,2026-06-16,Realizada,56,35,0
+52,Masculino,1976-05-31,Particular,Clinica Geral,2026-04-30,2026-06-06,Faltou,37,50,1
+53,Masculino,1964-05-31,Convenio X Empresarial,Cardiologia,2026-06-13,2026-06-21,Realizada,8,62,0
+54,Masculino,1985-05-31,Convenio X Empresarial,Psiquiatria,2026-05-01,2026-06-12,Realizada,42,41,0
+55,Masculino,1962-06-01,Particular,Cardiologia,2026-04-23,2026-06-11,Realizada,49,64,0
+56,Masculino,2007-06-01,Convenio X Empresarial,Cardiologia,2026-05-06,2026-06-03,Realizada,28,19,0
+57,Feminino,2012-05-31,Convenio Y,Psiquiatria,2026-05-04,2026-06-04,Realizada,31,14,0
+58,Feminino,1987-06-01,Particular Premium,Dermatologia,2026-04-27,2026-06-24,Realizada,58,39,0
+59,Feminino,1981-05-31,Particular,Cardiologia,2026-06-15,2026-06-24,Realizada,9,45,0
+60,Feminino,1987-06-01,Particular Premium,Psiquiatria,2026-04-20,2026-06-13,Faltou,54,39,1
+61,Feminino,2018-06-01,Convenio X Empresarial,Ortopedia,2026-05-01,2026-06-21,Faltou,51,8,1
+62,Feminino,1988-05-31,Convenio X Empresarial,Clinica Geral,2026-05-08,2026-06-06,Realizada,29,38,0
+63,Masculino,2006-06-01,Particular,Clinica Geral,2026-05-23,2026-06-06,Faltou,14,20,1
+64,Feminino,1976-05-31,Convenio Y,Cardiologia,2026-04-28,2026-06-07,Realizada,40,50,0
+65,Feminino,1981-05-31,Convenio X,Dermatologia,2026-04-30,2026-06-10,Realizada,41,45,0
+66,Feminino,2001-05-31,Particular,Dermatologia,2026-05-12,2026-06-03,Realizada,22,25,0
+67,Feminino,1994-06-01,Convenio X,Ortopedia,2026-06-11,2026-06-22,Realizada,11,32,0
+68,Masculino,2002-06-01,Convenio X,Cardiologia,2026-05-21,2026-06-13,Realizada,23,24,0
+69,Feminino,1987-06-01,Convenio Y,Clinica Geral,2026-06-03,2026-06-04,Realizada,1,39,0
+70,Masculino,1972-05-31,Convenio X,Dermatologia,2026-05-06,2026-06-21,Realizada,46,54,0
+71,Masculino,2001-05-31,Convenio X,Cardiologia,2026-05-21,2026-06-27,Realizada,37,25,0
+72,Feminino,1979-06-01,Convenio Y,Dermatologia,2026-06-02,2026-06-23,Realizada,21,47,0
+73,Feminino,1994-06-01,Convenio X,Psiquiatria,2026-05-18,2026-06-13,Realizada,26,32,0
+74,Masculino,1998-06-01,Convenio X,Dermatologia,2026-05-10,2026-06-25,Realizada,46,28,0
+75,Masculino,1988-05-31,Convenio X,Clinica Geral,2026-05-13,2026-06-18,Realizada,36,38,0
+76,Masculino,2021-05-31,Particular,Pediatria,2026-04-18,2026-06-11,Realizada,54,5,0
+77,Masculino,1995-06-01,Particular,Ortopedia,2026-06-02,2026-06-25,Realizada,23,31,0
+78,Feminino,2004-05-31,Particular,Ortopedia,2026-05-02,2026-06-28,Realizada,57,22,0
+79,Feminino,1957-05-31,Convenio Y,Clinica Geral,2026-06-14,2026-06-15,Realizada,1,69,0
+80,Feminino,1986-06-01,Convenio X Empresarial,Dermatologia,2026-05-01,2026-06-24,Faltou,54,40,1
+81,Masculino,1997-05-31,Convenio X,Cardiologia,2026-04-24,2026-06-18,Faltou,55,29,1
+82,Masculino,1983-06-01,Convenio X,Dermatologia,2026-04-29,2026-06-19,Realizada,51,43,0
+83,Feminino,1988-05-31,Convenio Y,Clinica Geral,2026-05-11,2026-06-20,Realizada,40,38,0
+84,Feminino,1990-06-01,Convenio X,Ortopedia,2026-06-03,2026-06-18,Realizada,15,36,0
+85,Feminino,1977-05-31,Particular,Dermatologia,2026-05-25,2026-06-15,Realizada,21,49,0
+86,Feminino,1975-06-01,Convenio X Empresarial,Ortopedia,2026-04-24,2026-06-10,Faltou,47,51,1
+87,Masculino,1994-06-01,Particular Premium,Cardiologia,2026-05-31,2026-06-09,Faltou,9,32,1
+88,Masculino,1995-06-01,Convenio X,Ortopedia,2026-04-11,2026-06-03,Realizada,53,31,0
+89,Masculino,1991-06-01,Particular,Ortopedia,2026-06-05,2026-06-14,Realizada,9,35,0
+90,Feminino,2015-06-01,Particular Premium,Pediatria,2026-06-16,2026-06-26,Realizada,10,11,0
+91,Feminino,2019-06-01,Convenio X Empresarial,Pediatria,2026-04-17,2026-06-08,Realizada,52,7,0
+92,Masculino,1966-06-01,Particular Premium,Psiquiatria,2026-04-14,2026-06-10,Faltou,57,60,1
+93,Masculino,2025-05-31,Particular,Pediatria,2026-05-01,2026-06-23,Realizada,53,1,0
+94,Masculino,1990-06-01,Particular Premium,Ortopedia,2026-05-28,2026-06-23,Realizada,26,36,0
+95,Masculino,1978-06-01,Convenio Y,Clinica Geral,2026-05-02,2026-06-12,Faltou,41,48,1
+96,Feminino,1982-06-01,Particular Premium,Ortopedia,2026-05-11,2026-06-15,Realizada,35,44,0
+97,Feminino,1940-05-31,Convenio X,Clinica Geral,2026-04-14,2026-06-05,Realizada,52,86,0
+98,Feminino,1970-06-01,Convenio X,Clinica Geral,2026-06-02,2026-06-27,Realizada,25,56,0
+99,Feminino,2012-05-31,Convenio Y,Pediatria,2026-06-01,2026-06-27,Realizada,26,14,0
+100,Feminino,2001-05-31,Particular,Dermatologia,2026-06-19,2026-06-30,Realizada,11,25,0
+101,Feminino,2011-06-01,Convenio X,Cardiologia,2026-05-07,2026-06-14,Faltou,38,15,1
+102,Masculino,2022-06-01,Convenio X Empresarial,Pediatria,2026-06-01,2026-06-03,Realizada,2,4,0
+103,Feminino,2020-05-31,Convenio X,Pediatria,2026-06-17,2026-06-24,Faltou,7,6,1
+104,Feminino,2008-05-31,Convenio X,Dermatologia,2026-05-19,2026-06-06,Realizada,18,18,0
+105,Masculino,1996-05-31,Particular,Cardiologia,2026-05-16,2026-06-12,Realizada,27,30,0
+106,Feminino,2003-06-01,Particular Premium,Ortopedia,2026-05-04,2026-06-07,Realizada,34,23,0
+107,Feminino,1961-05-31,Convenio X,Psiquiatria,2026-05-23,2026-06-19,Realizada,27,65,0
+108,Masculino,1973-05-31,Convenio Y,Psiquiatria,2026-06-05,2026-06-22,Realizada,17,53,0
+109,Feminino,1987-06-01,Particular Premium,Ortopedia,2026-04-29,2026-06-11,Faltou,43,39,1
+110,Feminino,2024-05-31,Convenio X Empresarial,Pediatria,2026-04-07,2026-06-05,Faltou,59,2,1
+111,Feminino,1985-05-31,Particular,Cardiologia,2026-04-27,2026-06-10,Faltou,44,41,1
+112,Feminino,2016-05-31,Convenio X Empresarial,Pediatria,2026-04-09,2026-06-07,Realizada,59,10,0
+113,Masculino,1964-05-31,Particular Premium,Clinica Geral,2026-04-13,2026-06-03,Realizada,51,62,0
+114,Masculino,2021-05-31,Particular Premium,Pediatria,2026-04-25,2026-06-18,Faltou,54,5,1
+115,Masculino,2015-06-01,Particular Premium,Pediatria,2026-05-13,2026-06-06,Realizada,24,11,0
+116,Masculino,1989-05-31,Convenio X Empresarial,Ortopedia,2026-06-01,2026-06-26,Realizada,25,37,0
+117,Masculino,2000-05-31,Particular Premium,Ortopedia,2026-05-31,2026-06-07,Realizada,7,26,0
+118,Feminino,2007-06-01,Convenio X Empresarial,Ortopedia,2026-05-06,2026-06-27,Realizada,52,19,0
+119,Masculino,1973-05-31,Particular Premium,Psiquiatria,2026-06-07,2026-06-13,Realizada,6,53,0
+120,Feminino,1958-06-01,Convenio Y,Clinica Geral,2026-05-02,2026-06-24,Realizada,53,68,0
+121,Masculino,2007-06-01,Particular Premium,Ortopedia,2026-05-29,2026-06-22,Realizada,24,19,0
+122,Masculino,1978-06-01,Convenio X Empresarial,Cardiologia,2026-05-09,2026-06-11,Realizada,33,48,0
+123,Feminino,1996-05-31,Convenio X,Psiquiatria,2026-05-05,2026-06-23,Faltou,49,30,1
+124,Feminino,1994-06-01,Particular Premium,Dermatologia,2026-05-24,2026-06-22,Realizada,29,32,0
+125,Feminino,1995-06-01,Convenio X,Cardiologia,2026-05-16,2026-06-28,Faltou,43,31,1
+126,Feminino,1999-06-01,Convenio Y,Cardiologia,2026-06-04,2026-06-26,Realizada,22,27,0
+127,Masculino,1986-06-01,Particular,Ortopedia,2026-05-12,2026-06-07,Realizada,26,40,0
+128,Masculino,1999-06-01,Convenio Y,Dermatologia,2026-05-31,2026-06-28,Realizada,28,27,0
+129,Feminino,1982-06-01,Particular Premium,Dermatologia,2026-04-20,2026-06-09,Realizada,50,44,0
+130,Feminino,1987-06-01,Convenio X,Psiquiatria,2026-05-13,2026-06-03,Faltou,21,39,1
+131,Feminino,1990-06-01,Convenio X,Dermatologia,2026-04-25,2026-06-13,Realizada,49,36,0
+132,Feminino,2000-05-31,Convenio X Empresarial,Clinica Geral,2026-06-07,2026-06-14,Realizada,7,26,0
+133,Feminino,1995-06-01,Convenio X,Ortopedia,2026-06-09,2026-06-26,Faltou,17,31,1
+134,Feminino,1975-06-01,Convenio X Empresarial,Dermatologia,2026-06-02,2026-06-22,Realizada,20,51,0
+135,Masculino,1979-06-01,Particular,Psiquiatria,2026-04-28,2026-06-08,Realizada,41,47,0
+136,Feminino,2001-05-31,Particular Premium,Clinica Geral,2026-04-23,2026-06-11,Realizada,49,25,0
+137,Feminino,2016-05-31,Convenio X Empresarial,Pediatria,2026-05-25,2026-06-14,Realizada,20,10,0
+138,Masculino,2025-05-31,Particular,Pediatria,2026-04-25,2026-06-18,Realizada,54,1,0
+139,Feminino,2012-05-31,Convenio X,Clinica Geral,2026-06-05,2026-06-27,Realizada,22,14,0
+140,Masculino,1978-06-01,Convenio X,Psiquiatria,2026-05-25,2026-06-22,Faltou,28,48,1
+141,Masculino,1996-05-31,Particular,Clinica Geral,2026-05-20,2026-06-29,Realizada,40,30,0
+142,Feminino,1978-06-01,Convenio X,Ortopedia,2026-05-09,2026-06-27,Realizada,49,48,0
+143,Feminino,1998-06-01,Particular,Ortopedia,2026-06-08,2026-06-15,Realizada,7,28,0
+144,Feminino,2020-05-31,Convenio X Empresarial,Pediatria,2026-06-02,2026-06-03,Realizada,1,6,0
+145,Feminino,2011-06-01,Convenio X Empresarial,Dermatologia,2026-05-28,2026-06-29,Realizada,32,15,0
+146,Feminino,1986-06-01,Particular,Psiquiatria,2026-06-10,2026-06-23,Faltou,13,40,1
+147,Masculino,2020-05-31,Convenio X Empresarial,Pediatria,2026-05-13,2026-06-12,Faltou,30,6,1
+148,Feminino,2000-05-31,Convenio X Empresarial,Dermatologia,2026-05-10,2026-06-02,Realizada,23,26,0
+149,Feminino,1977-05-31,Convenio X Empresarial,Dermatologia,2026-04-30,2026-06-20,Faltou,51,49,1
+150,Feminino,2011-06-01,Convenio Y,Ortopedia,2026-04-24,2026-06-22,Realizada,59,15,0
+151,Masculino,1987-06-01,Particular Premium,Cardiologia,2026-04-10,2026-06-05,Realizada,56,39,0
+152,Feminino,2005-05-31,Convenio X,Cardiologia,2026-06-01,2026-06-20,Realizada,19,21,0
+153,Feminino,1996-05-31,Convenio Y,Clinica Geral,2026-05-26,2026-06-27,Realizada,32,30,0
+154,Feminino,1986-06-01,Convenio X Empresarial,Ortopedia,2026-05-31,2026-06-30,Realizada,30,40,0
+155,Masculino,1999-06-01,Particular,Dermatologia,2026-05-24,2026-06-22,Realizada,29,27,0
+156,Feminino,1992-05-31,Convenio X Empresarial,Psiquiatria,2026-04-24,2026-06-12,Realizada,49,34,0
+157,Masculino,1971-06-01,Particular Premium,Cardiologia,2026-04-25,2026-06-09,Realizada,45,55,0
+158,Masculino,1995-06-01,Convenio X Empresarial,Dermatologia,2026-05-14,2026-06-12,Realizada,29,31,0
+159,Feminino,1974-06-01,Particular,Cardiologia,2026-05-06,2026-06-05,Realizada,30,52,0
+160,Masculino,2003-06-01,Particular Premium,Cardiologia,2026-06-02,2026-06-18,Realizada,16,23,0
+161,Feminino,1979-06-01,Convenio X Empresarial,Cardiologia,2026-05-19,2026-06-28,Realizada,40,47,0
+162,Masculino,1965-05-31,Particular Premium,Psiquiatria,2026-05-20,2026-06-08,Realizada,19,61,0
+163,Masculino,2024-05-31,Convenio X,Ortopedia,2026-05-22,2026-06-09,Realizada,18,2,0
+164,Feminino,1998-06-01,Convenio X,Psiquiatria,2026-06-03,2026-06-04,Realizada,1,28,0
+165,Feminino,2013-05-31,Convenio X Empresarial,Pediatria,2026-06-09,2026-06-23,Realizada,14,13,0
+166,Masculino,1990-06-01,Particular Premium,Dermatologia,2026-04-13,2026-06-03,Realizada,51,36,0
+167,Feminino,1981-05-31,Particular,Ortopedia,2026-05-08,2026-06-24,Realizada,47,45,0
+168,Feminino,1996-05-31,Convenio X Empresarial,Ortopedia,2026-04-27,2026-06-16,Realizada,50,30,0
+169,Feminino,1985-05-31,Convenio X,Ortopedia,2026-06-23,2026-06-25,Realizada,2,41,0
+170,Masculino,1989-05-31,Convenio X,Ortopedia,2026-04-30,2026-06-23,Faltou,54,37,1
+171,Masculino,1969-05-31,Convenio X Empresarial,Psiquiatria,2026-05-26,2026-06-23,Realizada,28,57,0
+172,Feminino,1983-06-01,Particular Premium,Ortopedia,2026-04-18,2026-06-06,Realizada,49,43,0
+173,Feminino,1981-05-31,Convenio X,Clinica Geral,2026-05-06,2026-06-25,Faltou,50,45,1
+174,Feminino,1993-05-31,Particular Premium,Dermatologia,2026-05-03,2026-06-02,Realizada,30,33,0
+175,Masculino,1994-06-01,Convenio X,Ortopedia,2026-05-20,2026-06-27,Faltou,38,32,1
+176,Feminino,1993-05-31,Convenio X,Dermatologia,2026-04-15,2026-06-05,Realizada,51,33,0
+177,Masculino,1981-05-31,Convenio Y,Clinica Geral,2026-06-12,2026-06-16,Realizada,4,45,0
+178,Feminino,1993-05-31,Convenio X,Clinica Geral,2026-06-20,2026-06-21,Realizada,1,33,0
+179,Masculino,1982-06-01,Particular,Dermatologia,2026-06-12,2026-06-20,Realizada,8,44,0
+180,Feminino,1955-06-01,Convenio X Empresarial,Cardiologia,2026-05-06,2026-06-04,Realizada,29,71,0
+181,Feminino,2022-06-01,Convenio X Empresarial,Pediatria,2026-04-27,2026-06-21,Realizada,55,4,0
+182,Feminino,1991-06-01,Particular Premium,Cardiologia,2026-05-04,2026-06-12,Faltou,39,35,1
+183,Masculino,1968-05-31,Convenio X,Cardiologia,2026-06-15,2026-06-18,Realizada,3,58,0
+184,Masculino,1993-05-31,Particular,Psiquiatria,2026-05-27,2026-06-28,Realizada,32,33,0
+185,Feminino,2017-05-31,Particular Premium,Cardiologia,2026-06-04,2026-06-14,Realizada,10,9,0
+186,Masculino,2002-06-01,Convenio Y,Ortopedia,2026-06-02,2026-06-12,Realizada,10,24,0
+187,Masculino,2015-06-01,Particular Premium,Psiquiatria,2026-05-15,2026-06-03,Realizada,19,11,0
+188,Masculino,1992-05-31,Particular Premium,Psiquiatria,2026-04-25,2026-06-10,Realizada,46,34,0
+189,Feminino,1986-06-01,Convenio X,Clinica Geral,2026-05-24,2026-06-27,Realizada,34,40,0
+190,Feminino,1961-05-31,Convenio Y,Cardiologia,2026-05-01,2026-06-03,Realizada,33,65,0
+191,Feminino,1982-06-01,Particular Premium,Clinica Geral,2026-05-30,2026-06-22,Faltou,23,44,1
+192,Masculino,1990-06-01,Particular,Dermatologia,2026-04-16,2026-06-10,Realizada,55,36,0
+193,Masculino,2013-05-31,Particular,Pediatria,2026-05-13,2026-06-10,Realizada,28,13,0
+194,Masculino,2020-05-31,Convenio X Empresarial,Psiquiatria,2026-05-08,2026-06-09,Realizada,32,6,0
+195,Feminino,1983-06-01,Convenio Y,Dermatologia,2026-04-29,2026-06-18,Realizada,50,43,0
+196,Feminino,1975-06-01,Convenio Y,Dermatologia,2026-05-26,2026-06-02,Realizada,7,51,0
+197,Masculino,2009-05-31,Convenio X Empresarial,Ortopedia,2026-05-28,2026-06-26,Realizada,29,17,0
+198,Masculino,2018-06-01,Particular Premium,Pediatria,2026-06-22,2026-06-30,Faltou,8,8,1
+199,Masculino,1981-05-31,Convenio Y,Dermatologia,2026-06-11,2026-06-12,Realizada,1,45,0
+200,Masculino,1993-05-31,Particular,Dermatologia,2026-04-13,2026-06-09,Realizada,57,33,0

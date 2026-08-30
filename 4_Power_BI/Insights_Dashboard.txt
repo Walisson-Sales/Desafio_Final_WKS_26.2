@@ -1,0 +1,40 @@
+RELATÓRIO DE ANÁLISE E INSIGHTS
+
+1- Visão Geral e Equilíbrio de Carteira
+
+- Análise: O dashboard consolida um volume total de 200 consultas no período, com 41 faltas (No-Shows). A distribuição das consultas por plano demonstra um comportamento relativamente equilibrado: o plano "Particular Premium" lidera com 22% (44 consultas), seguido pelo "Convênio X Empresarial" com 21% (42 consultas).
+
+- Insight Prático: A distribuição relativamente equilibrada das consultas entre os diferentes planos indica baixa concentração da demanda em uma única modalidade. A participação dos planos particulares também merece acompanhamento, pois pode contribuir para a diversificação das fontes de receita da clínica e reduzir a dependência de uma única operadora.
+
+
+2- Demanda e Fluxo Operacional
+
+- Análise: A especialidade de Ortopedia é o principal destaque em volume, com mais de 40 consultas, seguida por Dermatologia e Cardiologia.
+
+- Insight Prático: A maior concentração de consultas em Ortopedia, Dermatologia e Cardiologia indica maior demanda por essas especialidades no período analisado. A clínica pode utilizar esse indicador para auxiliar no planejamento da disponibilidade de médicos, salas, equipamentos e equipe de recepção, reduzindo possíveis gargalos operacionais.
+
+
+3- O Risco da Distância Temporal
+
+- Análise: A operação trabalha com agendas relativamente longas. A Dermatologia apresenta a maior média de antecedência, com 34,3 dias, seguida pela Psiquiatria, com 32,1 dias.
+
+- Insight Prático: A análise de antecedência, combinada aos resultados do modelo de Machine Learning, indica que essa variável possui relevância na análise do risco de No-Show. Especialidades com maior antecedência podem se beneficiar de estratégias de lembrete e confirmação próximas à data da consulta, reduzindo a possibilidade de perda de comparecimento.
+
+
+4- Comportamento Diário de No-Shows
+
+- Análise: A evolução temporal do período analisado mostra variações no volume diário de consultas. As faltas também aparecem de forma recorrente ao longo do período, indicando que o No-Show não está concentrado em um único momento específico.
+
+- Insight Prático (Plano de Ação): Recomenda-se a adoção de uma régua de confirmação ativa, com lembretes automatizados próximos à data da consulta, por exemplo, 48 horas antes do atendimento. Para consultas que apresentem maior risco de No-Show, a confirmação antecipada pode permitir que a equipe entre em contato com o paciente e, quando houver tempo hábil e regras operacionais que permitam, disponibilize horários não confirmados para encaixes.
+
+
+5- Recomendações Gerais
+
+Com base nos indicadores analisados, recomenda-se:
+
+- Monitorar a taxa de No-Show por especialidade e período;
+- Priorizar lembretes para consultas agendadas com maior antecedência;
+- Implementar uma estratégia de confirmação automatizada próxima à data do atendimento;
+- Acompanhar a demanda por especialidade para auxiliar no planejamento de médicos, salas e horários;
+- Monitorar a distribuição das consultas entre os diferentes planos;
+- Utilizar o modelo de Machine Learning como ferramenta de apoio à identificação de consultas com maior risco de No-Show, considerando suas limitações de desempenho.
