@@ -1,0 +1,16 @@
+id_consulta,genero,data_nascimento,plano,especialidade,data_agendamento,data_consulta,status
+1,Feminino,1985-04-12,Particular,Cardiologia,2026-05-20,2026-06-01,Realizada
+2,Masculino,1990-08-25,"Convenio X",Pediatria,2026-05-21,2026-06-02,Realizada
+3,Feminino,1978-11-05,"Convenio Y","Clinica Geral",2026-05-22,2026-06-03,Faltou
+4,Masculino,2005-02-14,"Particular Premium",Dermatologia,2026-05-23,2026-06-04,Realizada
+5,Feminino,1995-07-30,"Convenio X Empresarial",Ortopedia,2026-05-24,2026-06-05,Realizada
+6,Masculino,1982-12-01,"Convenio Y Empresarial",Neurologia,2026-05-25,2026-06-06,Cancelada
+7,Feminino,1998-09-18,"Particular Executivo",Ginecologia,2026-05-26,2026-06-08,Realizada
+8,Masculino,1970-03-15,"Convenio X Plus",Endocrinologia,2026-05-27,2026-06-09,Faltou
+9,Feminino,1989-05-20,"Convenio Y Plus",Oftalmologia,2026-05-28,2026-06-10,Realizada
+10,Masculino,2000-10-10,"Particular Basico",Psiquiatria,2026-05-29,2026-06-11,Realizada
+11,Feminino,1992-01-25,"Convenio X Senior",Urologia,2026-05-30,2026-06-12,Realizada
+12,Masculino,1986-06-08,"Convenio Y Senior",Otorrinolaringologia,2026-05-31,2026-06-13,Faltou
+13,Feminino,1993-03-17,Particular,Gastroenterologia,2026-06-01,2026-06-15,Realizada
+14,Masculino,1981-09-23,"Convenio X",Pneumologia,2026-06-02,2026-06-16,Realizada
+15,Feminino,1997-12-11,"Convenio Y",Nefrologia,2026-06-03,2026-06-17,Realizada
