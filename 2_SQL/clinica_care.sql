@@ -1,7 +1,7 @@
 -- PARTE 1: DDL (DATA DEFINITION LANGUAGE) - CRIAÇÃO DO BANCO E TABELAS
 
 -- Criação do Banco de Dados
-DROP SCHEMA clinica_care;
+DROP SCHEMA IF EXISTS clinica_care;
 CREATE SCHEMA clinica_care;
 USE clinica_care;
 
